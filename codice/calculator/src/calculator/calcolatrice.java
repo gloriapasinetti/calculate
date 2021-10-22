@@ -12,8 +12,10 @@ public class calcolatrice {
 	
 	public static double moltiplicazione(double a, double b) {
 		double c;
+		double cArrotondato;
 		c = a*b;
-		return(c);
+		cArrotondato = Math.round(c*10000.0)/10000.0;
+		return(cArrotondato);
 		
 	}
 	
@@ -33,7 +35,6 @@ public class calcolatrice {
 		if(b!=0) {
 			c= a/b;
 			cArrotondato = Math.round(c*100.0)/100.0;
-			// c = c.toFixed(2);
 			}
 		else
 			throw new Exception( "DIVISIONE IMPOSSIBILE");
