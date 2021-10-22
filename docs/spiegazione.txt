@@ -1,3 +1,1 @@
-Lenuzza Benedetta
-Pasinetti Gloria
-Zaffaroni Nicolò
+== questo è il mio esercizio in github ==
